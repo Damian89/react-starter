@@ -1,26 +1,26 @@
 {
-  "name": "reactjs-starter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --config webpack.development.js --hot --inline",
-    "build": "webpack --config webpack.development.js",
-    "watch": "webpack --config webpack.development.js --watch"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "babel": "^5.8.34",
-    "babel-core": "^5.8.34",
-    "babel-loader": "^5.4.0",
-    "babel-runtime": "^5.8.34",
-    "webpack": "^1.12.11",
-    "webpack-dev-server": "^1.14.1"
-  },
-  "dependencies": {
-    "react": "^0.14.6",
-    "react-dom": "^0.14.6"
-  }
+    "name": "reactjs-starter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack-dev-server --config webpack.development.js --hot --inline",
+        "build": "webpack --config webpack.development.js",
+        "watch": "webpack --config webpack.development.js --watch"
+    },
+    "author": "Damian Schwyrz",
+    "license": "ISC",
+    "devDependencies": {
+        "babel": "^5.8.34",
+        "babel-core": "^5.8.34",
+        "babel-loader": "^5.4.0",
+        "babel-runtime": "^5.8.34",
+        "webpack": "^1.12.11",
+        "webpack-dev-server": "^1.14.1"
+    },
+    "dependencies": {
+        "react": "^0.14.6",
+        "react-dom": "^0.14.6"
+    }
 }
