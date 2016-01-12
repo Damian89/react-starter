@@ -1,11 +1,11 @@
 {
-  "name": "react-book-chapter-hello-world",
+  "name": "reactjs-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --config webpack.development.js --hot --inline --progress",
+    "dev": "webpack-dev-server --config webpack.development.js --hot --inline",
     "build": "webpack --config webpack.development.js",
     "watch": "webpack --config webpack.development.js --watch"
   },
@@ -20,6 +20,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "react": "^0.14.6"
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
   }
 }
